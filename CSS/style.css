@@ -1,0 +1,24 @@
+body {
+    background-color: #F7DBF0;
+  }
+  h1 {
+    color: #BEAEE2; 
+    font-size: medium;
+  }
+  p {
+    color: #BEAEE2;
+  }
+  h2{
+    color: #BEAEE2;
+
+  }
+  ol li {
+    color: #BEAEE2;
+    padding: 5px;
+    margin-left: 35px;
+  }
+  
+  ul li {
+    color: #BEAEE2;
+    margin: 5px;
+  }
