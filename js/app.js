@@ -14,7 +14,7 @@ let resq1 = q1.toLowerCase();
  }else{
     console.log('NO, your answer is not correct.');
     alert('NO, your answer is not correct');
-}
+ }
 
 
  let q2 = prompt ('AM i good cooker?');
