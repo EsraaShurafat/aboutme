@@ -3,22 +3,52 @@ body {
   }
   h1 {
     color: #BEAEE2; 
-    font-size: medium;
+    display: block;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
   }
   p {
     color: #BEAEE2;
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
   }
   h2{
     color: #BEAEE2;
-
+    display: block;
+    font-size: 1.5em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
   }
   ol li {
     color: #BEAEE2;
-    padding: 5px;
-    margin-left: 35px;
+    display: block;
+list-style-type: decimal;
+margin-top: 1em;
+margin-bottom: 1em;
+margin-left: 0;
+margin-right: 0;
+padding-left: 40px;
   }
   
   ul li {
+    list-style-type: circle;
+    display: block;
+    list-style-type: disc;
+    margin-top: 1em;
+    margin-bottom: 1 em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 40px;
     color: #BEAEE2;
-    margin: 5px;
+    
   }
