@@ -60,59 +60,59 @@ let q5 = prompt ('Did you Know me ? ');
  let resq5 = q5.toLowerCase();
 
 
-//  if (resq5=== 'no'||resq5 === 'n' ) {
-//     console.log('GOOD JOB , your answer is correct.');
-//     alert('GOOD JOB , your answer is correct.');
-//     score++
-//   }
-//  else{
-//      console.log('NO, your answer is not correct.');
-//      alert('NO, your answer is not correct');
-//  }
+ if (resq5=== 'no'||resq5 === 'n' ) {
+    console.log('GOOD JOB , your answer is correct.');
+    alert('GOOD JOB , your answer is correct.');
+    score++
+  }
+ else{
+     console.log('NO, your answer is not correct.');
+     alert('NO, your answer is not correct');
+ }
 
 
 
-// for (let i = 0; i < 4; i++) {
-//   let q6 = prompt('Guess the number btween 1 and 10 ?');
-//   if (q6==5 ) {
-//     console.log('GOOD JOB , your answer is correct.');
-//     alert('GOOD JOB , your answer is correct.');
-//     score++
-//     break;
-//   }
-//   if (q6 > 5) {
-//     alert(`too high , NO, your answer is not correct, try again!`);
+for (let i = 0; i < 4; i++) {
+  let q6 = prompt('Guess the number btween 1 and 10 ?');
+  if (q6==5 ) {
+    console.log('GOOD JOB , your answer is correct.');
+    alert('GOOD JOB , your answer is correct.');
+    score++
+    break;
+  }
+  if (q6 > 5) {
+    alert(`too high , NO, your answer is not correct, try again!`);
 
-//   } else if (q6 < 5) {
-//     alert(`too low, NO, your answer is not correct , try again!`);
-//   } else {
-//     alert(`the number is 5 , correct.`)
-//     break;
-//   }
-// }
-
-
-// let favMeal = ['blue', 'red', 'green'];
-// for (let i = 0; i < 1; i++) {
-//   for (let j = 0; j <= 6; j++) {
-//     let q7 = prompt('Guess my favorite color ?')
-//     if (q7 == favMeal[0] || q7 == favMeal[1] || q7 == favMeal[2]) {
-//       console.log('GOOD JOB , your answer is correct.');
-//       alert(`GOOD JOB , your answer is correct , these my favorites colors ${favMeal} .`);
-//       score++
-//       break;
-
-//     } else {
-//       console.log('NO, your answer is not correct, try again.');
-//       alert('NO, your answer is not correct, try again.');
-//     }
-//   }
-// }
-// alert(`these my favorites colors  ${favMeal} .`)
+  } else if (q6 < 5) {
+    alert(`too low, NO, your answer is not correct , try again!`);
+  } else {
+    alert(`the number is 5 , correct.`)
+    break;
+  }
+}
 
 
-//  alert(`You Get ${score} of /7 .`)
-// alert('Thank you  '+ userName +' , I hope you enjoed my game.');
+let favMeal = ['blue', 'red', 'green'];
+for (let i = 0; i < 1; i++) {
+  for (let j = 0; j <= 6; j++) {
+    let q7 = prompt('Guess my favorite color ?')
+    if (q7 == favMeal[0] || q7 == favMeal[1] || q7 == favMeal[2]) {
+      console.log('GOOD JOB , your answer is correct.');
+      alert(`GOOD JOB , your answer is correct , these my favorites colors ${favMeal} .`);
+      score++
+      break;
+
+    } else {
+      console.log('NO, your answer is not correct, try again.');
+      alert('NO, your answer is not correct, try again.');
+    }
+  }
+}
+alert(`these my favorites colors  ${favMeal} .`)
+
+
+ alert(`You Get ${score} of /7 .`)
+alert('Thank you  '+ userName +' , I hope you enjoed my game.');
 
 
 
