@@ -111,6 +111,8 @@ for (let i = 0; i < 4; i++) {
 } 
 q6();
 
+
+function q7(){
 let favMeal = ['blue', 'red', 'green'];
 for (let i = 0; i < 1; i++) {
   for (let j = 0; j <= 6; j++) {
@@ -128,6 +130,8 @@ for (let i = 0; i < 1; i++) {
   }
 }
 alert(`these my favorites colors  ${favMeal} .`)
+}
+q7();
 
 
  alert(`You Get ${score} of /7 .`)
