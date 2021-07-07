@@ -69,6 +69,7 @@ let resq4 = q4.toLowerCase();
 }
 q4();
 
+function q5() {
 let q5 = prompt ('Did you Know me ? ');
  let resq5 = q5.toLowerCase();
 
@@ -83,6 +84,9 @@ let q5 = prompt ('Did you Know me ? ');
      alert('NO, your answer is not correct');
  }
 
+} 
+
+q5();
 
 
 for (let i = 0; i < 4; i++) {
