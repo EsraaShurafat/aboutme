@@ -4,6 +4,8 @@ alert('Welcome '+userName+' to my guessnig game .');
 
 let score = 0;
 
+
+function q1 (){
 let q1 = prompt ('AM i a programmer ?');
 let resq1 = q1.toLowerCase();
 
@@ -16,7 +18,10 @@ let resq1 = q1.toLowerCase();
     alert('NO, your answer is not correct');
  }
 
+}
+q1();
 
+function q2() { 
  let q2 = prompt ('AM i good cooker?');
  let resq2 = q2.toLowerCase();
  if (resq2 === 'yes'||resq2 === 'y' ) {
@@ -29,6 +34,10 @@ let resq1 = q1.toLowerCase();
      alert('NO, your answer is not correct');
  }
 
+}
+q2();
+
+function q3(){
 let q3 = prompt ('Do we see the moon every day ?');
  let resq3 = q3.toLowerCase();
 
@@ -41,7 +50,10 @@ let q3 = prompt ('Do we see the moon every day ?');
      console.log('NO, your answer is not correct.');
      alert('NO, your answer is not correct');
  }
+} 
+q3();
 
+function q4(){
 
 let q4 = prompt ('Do I play football?');
 let resq4 = q4.toLowerCase(); 
@@ -54,8 +66,10 @@ let resq4 = q4.toLowerCase();
      console.log('NO, your answer is not correct.');
      alert('NO, your answer is not correct');
  }
+}
+q4();
 
-
+function q5() {
 let q5 = prompt ('Did you Know me ? ');
  let resq5 = q5.toLowerCase();
 
@@ -70,8 +84,11 @@ let q5 = prompt ('Did you Know me ? ');
      alert('NO, your answer is not correct');
  }
 
+} 
 
+q5();
 
+function q6() {
 for (let i = 0; i < 4; i++) {
   let q6 = prompt('Guess the number btween 1 and 10 ?');
   if (q6==5 ) {
@@ -91,7 +108,11 @@ for (let i = 0; i < 4; i++) {
   }
 }
 
+} 
+q6();
 
+
+function q7(){
 let favMeal = ['blue', 'red', 'green'];
 for (let i = 0; i < 1; i++) {
   for (let j = 0; j <= 6; j++) {
@@ -109,6 +130,8 @@ for (let i = 0; i < 1; i++) {
   }
 }
 alert(`these my favorites colors  ${favMeal} .`)
+}
+q7();
 
 
  alert(`You Get ${score} of /7 .`)
