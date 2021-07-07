@@ -88,7 +88,7 @@ let q5 = prompt ('Did you Know me ? ');
 
 q5();
 
-
+function q6() {
 for (let i = 0; i < 4; i++) {
   let q6 = prompt('Guess the number btween 1 and 10 ?');
   if (q6==5 ) {
@@ -108,6 +108,8 @@ for (let i = 0; i < 4; i++) {
   }
 }
 
+} 
+q6();
 
 let favMeal = ['blue', 'red', 'green'];
 for (let i = 0; i < 1; i++) {
