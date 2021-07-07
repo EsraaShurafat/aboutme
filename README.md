@@ -7,6 +7,10 @@
 ### Project Name : Guessing About me game with new features 
 #### I add new gussing questions about me and i used for loop , if statemts and arry to interact with the user in diffrent way.
 
+# I was Navigator on: [https://github.com/EsraaShurafat/aboutme/pull/1](https://github.com/EsraaShurafat/aboutme/pull/1)
+
+# I was Driver on:  
+
 - Author: Esra'a alshurafat /ASAC
 - Links and Resources : i used this link to know about some js and css commands [w3schools.com](w3schools.com)
 - TA Mais Abdelrazeq help me with if statment code in my js code .
