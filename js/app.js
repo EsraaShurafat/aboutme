@@ -53,6 +53,8 @@ let q3 = prompt ('Do we see the moon every day ?');
 } 
 q3();
 
+function q4(){
+
 let q4 = prompt ('Do I play football?');
 let resq4 = q4.toLowerCase(); 
  if (resq4=== 'yes'||resq4 === 'y' ) {
@@ -64,7 +66,8 @@ let resq4 = q4.toLowerCase();
      console.log('NO, your answer is not correct.');
      alert('NO, your answer is not correct');
  }
-
+}
+q4();
 
 let q5 = prompt ('Did you Know me ? ');
  let resq5 = q5.toLowerCase();
