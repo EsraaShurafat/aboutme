@@ -21,6 +21,7 @@ let resq1 = q1.toLowerCase();
 }
 q1();
 
+function q2() { 
  let q2 = prompt ('AM i good cooker?');
  let resq2 = q2.toLowerCase();
  if (resq2 === 'yes'||resq2 === 'y' ) {
@@ -33,6 +34,9 @@ q1();
      alert('NO, your answer is not correct');
  }
 
+}
+q2();
+ 
 let q3 = prompt ('Do we see the moon every day ?');
  let resq3 = q3.toLowerCase();
 
