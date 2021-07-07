@@ -4,6 +4,8 @@ alert('Welcome '+userName+' to my guessnig game .');
 
 let score = 0;
 
+
+function q1 (){
 let q1 = prompt ('AM i a programmer ?');
 let resq1 = q1.toLowerCase();
 
@@ -16,6 +18,8 @@ let resq1 = q1.toLowerCase();
     alert('NO, your answer is not correct');
  }
 
+}
+q1();
 
  let q2 = prompt ('AM i good cooker?');
  let resq2 = q2.toLowerCase();
