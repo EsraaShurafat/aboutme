@@ -1,8 +1,11 @@
 body {
-    background-color: #F7DBF0;
+    background-color: #3C5186;
   }
   h1 {
-    color: #BEAEE2; 
+    font-family: 'Otomanopee One', sans-serif;
+    text-align: center;
+    color: #FFF5DE; 
+   position: sticky;
     display: block;
     font-size: 2em;
     margin-top: 0.67em;
@@ -12,7 +15,10 @@ body {
     font-weight: bold;
   }
   p {
-    color: #BEAEE2;
+    text-align: center;
+    font-family: 'Otomanopee One', sans-serif;
+    color: #FFF5DE;
+    position: static;
     display: block;
     margin-top: 1em;
     margin-bottom: 1em;
@@ -20,7 +26,10 @@ body {
     margin-right: 0;
   }
   h2{
-    color: #BEAEE2;
+    text-align: center;
+    font-family: 'Otomanopee One', sans-serif;
+    color: #FFF5DE;
+    position: static;
     display: block;
     font-size: 1.5em;
     margin-top: 0.83em;
@@ -30,7 +39,11 @@ body {
     font-weight: bold;
   }
   ol li {
-    color: #BEAEE2;
+    
+    position: static;
+    text-align: center;
+    font-family: 'Otomanopee One', sans-serif;
+    color: #FFF5DE;
     display: block;
 list-style-type: decimal;
 margin-top: 1em;
@@ -41,6 +54,9 @@ padding-left: 40px;
   }
   
   ul li {
+    text-align: center;
+    position: static;
+    font-family: 'Otomanopee One', sans-serif;
     list-style-type: circle;
     display: block;
     list-style-type: disc;
@@ -49,6 +65,11 @@ padding-left: 40px;
     margin-left: 0;
     margin-right: 0;
     padding-left: 40px;
-    color: #BEAEE2;
+    color: #FFF5DE;
     
   }
+  .myDiv {
+    
+    color: #9B72AA;
+  }
+  

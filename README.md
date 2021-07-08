@@ -14,6 +14,13 @@
 
 ###  I was Driver on:  [https://github.com/MohammadAljadayh/About-Me/pull/1](https://github.com/MohammadAljadayh/About-Me/pull/1)
 
+# LAB - 5
+###  Project Name : Finish the “About Me” project 
+#### I solved 3,4,5 problems and with branches for each one and emerge it the the LUTC main branch , in part second part of the lab i add some HTML and CSS codes and restyle the webpage in third part i solved until 20 level of css selector game .
+
+## Resources : 
+
 - Author: Esra'a alshurafat /ASAC
 - Links and Resources : i used this link to know about some js and css commands [w3schools.com](w3schools.com)
-- TA Mais Abdelrazeq help me with if statment code in my js code .
+- TA Mais Abdelrazeq help me with if statment code in my js code in lab-3.
+- TA Emad Alzoubi help me with Functions statment code to solve some problems lab-5.
